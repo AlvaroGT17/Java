@@ -1,0 +1,10 @@
+/* Realizar la carga de dos números enteros por teclado e imprimir su suma y su producto.*/
+
+public class hola_Mundo {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hola mundo");
+
+	}
+}

@@ -1,0 +1,14 @@
+/*Realizar la carga de dos números enteros por teclado e imprimir su suma y su producto.*/
+
+package Estructura_de_programacion_secuencial;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		int sumando1 = 5;
+		int
+
+	}
+
+}
