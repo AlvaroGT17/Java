@@ -21,7 +21,8 @@ public class Ejercicio1 {
 		int sumteclado2 = teclado.nextInt();
 		
 		System.out.println("La suma de " + sumteclado1 + " + " + sumteclado2 + " es isgual a: " + (sumteclado1+sumteclado2));
-
+		
+		teclado.close();
 	}
 
 }

@@ -1,0 +1,31 @@
+// Realizar un programa que lea cuatro valores numéricos e informar su suma y promedio. 
+
+package Estructura_de_programacion_secuencial;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+	
+		Scanner teclado = new Scanner(System.in);
+		
+		int n1,n2,n3,n4;
+				
+		System.out.print("Ingrese el 1º nuemero: ");
+		n1=teclado.nextInt();
+		System.out.print("Ingrese el 2º nuemero: ");
+		n2=teclado.nextInt();
+		System.out.print("Ingrese el 3º nuemero: ");
+		n3=teclado.nextInt();
+		System.out.print("Ingrese el 4º nuemero: ");
+		n4=teclado.nextInt();
+		
+		System.out.println("La suma de todos los números es: " + (n1+n2+n3+n4));
+		System.out.println("El promedio de todos los números es: " + ((n1+n2+n3+n4)/4));
+		
+		teclado.close();
+
+	}
+
+}
